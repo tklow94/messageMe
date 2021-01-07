@@ -9,7 +9,15 @@ require("@rails/activestorage").start()
 require("channels")
 require("semantic-ui-sass")
 
-$(document).on('turbolinks:load', function(){$(".ui.dropdown").dropdown();     $('.message .close').on('click', function(){ $(this).closest('.message').transition('fade')     }); });
+scroll_bottom = function() {
+    if ($('#messages').length > 0) {
+        $('#messages').scrollTop($('#messages')[0].scrollHeight);
+    }
+}
+
+$(document).on('turbolinks:load', function(){$(".ui.dropdown").dropdown();     $('.message .close').on('click', function(){ $(this).closest('.message').transition('fade')     }); 
+scroll_bottom();
+});
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
