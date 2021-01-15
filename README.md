@@ -1,24 +1,47 @@
-# README
+# MessageMe
+---
+MessageMe is an instant messaging platform utilizing ActionCable, WebSocket protocol and Semantic-UI.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Motivation
+---
+Social media is an industry I am fascinated with because of it's ability to empower users to be their own brand and make connections worldwide. I wanted to understand the functionality behind the various components that are implemented in these platforms by building them out in this app. With this app in particular I wanted to explore utilizing clean OOP principles to create an application that shows mastery of Ruby on Rails while exploring ActionCable and WebSocket protocol. 
 
-Things you may want to cover:
+# Heroku 
+---
+[Heroku](https://talky-talk-12.herokuapp.com/)
 
-* Ruby version
+# Tehcnologies Used
+---
+# - Ruby on Rails
+  Ruby is a flexible OOP language that allowed me to execute a proof of concept fairly quickly. Rails is a development framework which makes abstracting out tasks much easier and allows me to DRY up my code. 
 
-* System dependencies
+# - Postgresql
+  Postgresql is a program that allows me to easily create a relational database and view my data in clear and distinct tables. Assist with deploying to Heroku.
 
-* Configuration
+# - Semantic-UI
+  Ability to dispatch easy to customize, ready to use, and professional styling components. Helped speed up production of my application.
 
-* Database creation
+# - Bcrypt
+  Along with customized authentication and authorization, Bcrypt adds an extra layer of security by hashing passwords.
 
-* Database initialization
+# - ActionCable and WebSockets
+  Ability to seamlessly integrate WebSockets within a rails application to allow real-time messaging features while still being scalable.
 
-* How to run the test suite
+# Features
+---
+- Create an account
+- Send real time messages to other users
 
-* Services (job queues, cache servers, search engines, etc.)
+# Contributing
+---
+Contributions are welcome, submit a pull request!
 
-* Deployment instructions
+# Author
+---
+Trevor Low -[Github](https://github.com/tklow94?tab=repositories)
 
-* ...
+# License 
+---
+This project is licensed under the [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+
